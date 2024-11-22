@@ -1,4 +1,5 @@
-Description: An online marketplace that facilitates the buying and selling of products, incorporating features like user registration, product listing, secure transactions, and order tracking.
+## Description
+An online marketplace that facilitates the buying and selling of products, incorporating features like user registration, product listing, secure transactions, and order tracking.
 
 Features:
   User authentication and profiles.
