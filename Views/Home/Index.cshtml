@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Category>
+@model IEnumerable<Category>
 
 @{
     ViewData["Title"] = "Home Page";
@@ -27,12 +27,12 @@
             @foreach (var category in Model)
             {
                 <div class="col-md-3 mb-4">
-                    <a asp-action="Index" asp-controller="Products" asp-route-categoryId="@category.Id" class="text-decoration-none">
-                        <div class="card border-0">
-                            <div class="card-body">
-                                <h5 class="card-title">@category.Name</h5>
-                            </div>
-                        </div>
+					<a asp-action="Index" 
+					   asp-controller="Products" 
+					   asp-route-categoryId="@category.Id" 
+					   class="btn btn-primary d-flex align-items-center text-decoration-none">
+					   <i class="bi bi-box-seam me-2"></i>
+						<h5 class="card-title">@category.Name</h5>
                     </a>
                 </div>
             }
